@@ -1,0 +1,22 @@
+<div class='row box-shadow margin-tb-30px'>  
+    <div class='col-lg-12'>   
+        <h3 class="bold center-align white-text">Quiz</h3>
+    </div>  
+</div>  
+<div class="row">
+    <div class="col-lg-12 col-xs-12">
+
+        <div *ngFor="let item of quizjsonArray let i = index" class="col-xs-12 box-shadow">
+                <div class="col-lg-4 col-xs-4">
+                    <h4 style="line-height: 5.4rem;" class="page-number left-align white-text">{{ item['date'] }}</h4>
+                </div>
+                <div class="col-lg-4  col-xs-8">
+                    <h4 style="line-height: 5.4rem;" class="page-number left-align white-text">{{ item['desc'] }}</h4>
+                </div>
+                <div class="col-lg-4  col-xs-6" style="float: right;">
+                    <button routerLink="/instructions" routerLinkActive="active" type="button" class="btn btn-primary col-md-4" style="margin: 20px;float: right;">Start</button>
+                </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width:100% !important;
+}
+.carousel-control-prev{
+    background-color: transparent;
+    border: none !important;
+}
+.carousel-item{
+    width: 33.33%;
+}
+.panel{
+    background-color: transparent;
+    border: none !important;
+    color: white !important;
+}
+.panel h3{
+    margin: 0px !important;
+}
+.panel-default>.panel-heading{
+    border: none !important;
+}
+.btn-danger{
+    margin: 20px 0px;
+    float: right;
+}
+.btn-warning{
+    margin: 20px 0px;
+    float: left;
+}
+.btn-primary{
+    margin: 20px 0px;
+    float: right;
+}
+.btn-success {
+    margin: 20px 0px;
+    float: left;
+}
+@media screen and (max-width: 600px) { 
+    .btn-danger{
+        margin: 20px 0px;
+        float: none !important;
+    }
+    .btn-warning{
+        margin: 20px 0px;
+        float: none !important;
+    }
+    .btn-primary{
+        margin: 20px 0px;
+        float: none !important;
+    }
+    .btn-success {
+        margin: 20px 0px;
+        float: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
