@@ -37,6 +37,8 @@ import { InstructionsComponent } from './quiz/instructions/instructions.componen
 import { Quiz1Component } from './quiz/quiz1/quiz1.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import { enableProdMode } from '@angular/core';
+
 @NgModule({
   declarations: [
     AppComponent,
